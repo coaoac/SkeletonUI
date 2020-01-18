@@ -8,6 +8,7 @@ public enum GradientType: Equatable {
 }
 
 extension Color {
+    /*
     public static var primary: Color {
         #if os(iOS)
             return Color(.systemGray4)
@@ -19,7 +20,7 @@ extension Color {
             return Color(.alternateSelectedControlColor)
         #endif
     }
-
+*/
     public static var background: Color {
         #if os(iOS)
             return Color(.systemGray6)
